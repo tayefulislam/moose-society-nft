@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='py-2'>
 
             <footer class="footer px-24 py-4">
                 <div class="items-center grid-flow-col">

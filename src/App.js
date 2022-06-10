@@ -9,7 +9,7 @@ import Footer from './Pages/Home/Footer/Footer';
 
 function App() {
   return (
-    <div>
+    <div className='mx-1 overflow-x-hidden'>
 
       <Navbar></Navbar>
       <Banner></Banner>

@@ -24,7 +24,9 @@ const Newsletter = () => {
 
                     <input type="text" placeholder="Email Address" class="input w-full max-w-xs mt-2" />
 
-                    <a href='' class="btn bounce bg-gradient-to-r from-indigo-500  to-pink-500">STAKE</a>
+                    <a href='/' class="btn hover:animate-bounce bg-gradient-to-r from-[#5210FE]  to-[#AA17E0] rounded-sm mx-4 mt-4 border-0"
+
+                    >Subscribe <i class="fa-solid fa-arrow-right mx-2"></i></a>
 
 
                 </div>

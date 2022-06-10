@@ -6,6 +6,9 @@ const Navbar = () => {
         <li className='text-xl font-semibold'><a>Home</a></li>
 
         <li className='text-xl font-semibold'><a>Mini Moose</a></li>
+        <li className='text-xl font-semibold'><a>Utilities</a></li>
+        <li className='text-xl font-semibold'><a>Society Rewards</a></li>
+        <li className='text-xl font-semibold'><a>Merch</a></li>
 
     </>
     return (
@@ -29,7 +32,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn bounce bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Get started</a>
+                <a href='/' class="btn hover:animate-bounce bg-gradient-to-r from-[#5210FE]  to-[#AA17E0] rounded-sm">Dashboard <i class="fa-solid fa-border-all mx-1"></i></a>
             </div>
         </div>
     );

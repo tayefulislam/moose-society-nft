@@ -3,7 +3,7 @@ import './OffSection.css'
 
 const OffSection = () => {
     return (
-        <div className='off-container  mx-2 lg:mx-24'>
+        <div className='off-container  mx-2 lg:mx-24 '>
 
             <div>
 
@@ -25,16 +25,19 @@ const OffSection = () => {
 
                 </div>
 
-                <div className='flex justify-center items-center'>
-                    <a href='' class="btn bounce bg-gradient-to-r from-indigo-500  to-pink-500">STAKE</a>
+                <div className='flex justify-center items-center mt-1'>
+                    <a href='/' class="btn hover:animate-bounce bg-gradient-to-r from-[#5210FE]  to-[#AA17E0] rounded-sm mx-4"
+                        data-aos="zoom-in"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">Stake</a>
                 </div>
 
             </div>
 
-            <div className='text-center p-16 bg-[#1D1533]'>
+            <div className='text-center p-16 bg-[#1D1533] rounded-[12px]'>
 
                 <div data-aos="fade-up"
-                    data-aos-easing="ease-out-cubic"
+
                     data-aos-duration="2000"
                 >
                     <div className='flex justify-center items-center'>
