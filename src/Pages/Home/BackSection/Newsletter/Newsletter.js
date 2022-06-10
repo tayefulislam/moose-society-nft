@@ -3,9 +3,17 @@ import './Newsletter.css'
 
 const Newsletter = () => {
     return (
-        <div className='newsletter-container bg-gradient-to-r from-[#5210FE]  to-[#AA17E0] mx-2  lg:mx-24 p-12 rounded-lg mt-6'>
+        <div className='newsletter-container bg-gradient-to-r from-[#5210FE]  to-[#AA17E0] mx-1  lg:mx-24 py-[20px] px-[12px] lg:p-12 rounded-lg mt-6 gap-5'
+            data-aos="zoom-in-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
 
-            <div className='newsletter-section'>
+        >
+
+            <div className='newsletter-section'
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <h1 className='text-lg font-semibold'>NEWSLETTER</h1>
                 <h1 className='text-4xl font-bold mt-2'>
 
@@ -23,7 +31,12 @@ const Newsletter = () => {
 
             </div>
 
-            <div className='about-section'>
+            <div className='about-section'
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                data-aos-delay="800"
+            >
 
                 <img src="https://moosesocietynft.io/wp-content/uploads/2022/03/MOOSE-SOCIETY-LOGO-1-1536x216.png" alt="" />
 
@@ -38,9 +51,14 @@ const Newsletter = () => {
 
             </div>
 
-            <div className='quick-manu'>
+            <div className='quick-manu'
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                data-aos-delay="1000"
+            >
 
-                <div className='flex justify-center items-center'>
+                <div className='flex lg:justify-center items-center'>
                     <div>
                         <h1 className='text-2xl font-bold mb-2'>Quick Manu</h1>
 
@@ -53,6 +71,10 @@ const Newsletter = () => {
                         </div>
                     </div>
                 </div>
+
+
+
+
 
             </div>
 

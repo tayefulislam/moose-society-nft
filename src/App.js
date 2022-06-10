@@ -5,6 +5,7 @@ import Banner from './Pages/Home/Banner/Banner';
 import OffSection from './Pages/Home/OffSection/OffSection';
 import BackSection from './Pages/Home/BackSection/BackSection';
 import Newsletter from './Pages/Home/BackSection/Newsletter/Newsletter';
+import Footer from './Pages/Home/Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <OffSection></OffSection>
       <BackSection></BackSection>
       <Newsletter></Newsletter>
+      <Footer></Footer>
 
     </div>
   );
