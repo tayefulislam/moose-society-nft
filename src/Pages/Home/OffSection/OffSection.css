@@ -1,0 +1,14 @@
+.off-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .off-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
