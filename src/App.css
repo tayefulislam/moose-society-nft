@@ -49,10 +49,9 @@
 
 
 
-.bounce:hover {
+.bounce {
 
-
-  -webkit-animation: bounce 2s infinite;
+  -webkit-animation: bounce 1s infinite;
 }
 
 @-webkit-keyframes bounce {
